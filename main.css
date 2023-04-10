@@ -1,3 +1,67 @@
 /*html {
     background-color: #e6e9e9;
 }*/
+
+/* BODY */
+body {
+    margin: 0 auto;
+    padding: 2em 2em 3.5em;
+    max-width: 600px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    line-height: 1.5em;
+    color: #f7f6f6;
+    background-color: #202124;
+    /* background-color: #f7f6f6;   /1* small seasons color *1/ */
+    /*background-color: #ffffff;*/ /* pure white */
+    /*box-shadow: 0 0 2px rgba(0, 0, 0, 0.06);*/
+}
+.column {
+    float: left;
+    width: 50%;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* IMAGES */
+/* img { */
+/*     max-width: 500px; */
+/*     display: block;  */
+/*     margin-left: auto; */
+/*     margin-right: auto; */
+/*     width: 80%; */
+/* } */
+
+/* HEADERS */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Nunito';
+    /* color: #222; */
+    color: #f7f6f6;
+    font-weight: 800;
+    line-height: 1.3em;
+}
+h2 {
+    margin-top: 1.3em;
+}
+
+/* LINKS */
+a {
+  /*color: #1756a9; */  /* nice blue */
+  color: #00ffff;
+  text-decoration: none;
+}
+  a:visited {
+    color: #00FFFF; }
+  a:hover {
+    color: #00FFFF; }
+
+b, strong {
+    font-weight: 600;
+}
+
+/* BLOG */
+ul.posts li { list-style: none; }
+/*ul.posts { margin: 20px auto 40px; font-size: 1.5em; }*/
